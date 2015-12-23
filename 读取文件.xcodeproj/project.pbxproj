@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6856B0EE1BCCF57E0015EF3D /* COUNTRY.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6856B0ED1BCCF57E0015EF3D /* COUNTRY.txt */; settings = {ASSET_TAGS = (); }; };
 		68A2229C1BCCAE73004B8036 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A2229B1BCCAE73004B8036 /* main.m */; };
 		68A2229F1BCCAE73004B8036 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A2229E1BCCAE73004B8036 /* AppDelegate.m */; };
 		68A222A21BCCAE73004B8036 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A222A11BCCAE73004B8036 /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6856B0ED1BCCF57E0015EF3D /* COUNTRY.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COUNTRY.txt; sourceTree = "<group>"; };
 		68A222971BCCAE73004B8036 /* 读取文件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "读取文件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A2229B1BCCAE73004B8036 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68A2229D1BCCAE73004B8036 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				68A2229E1BCCAE73004B8036 /* AppDelegate.m */,
 				68A222A01BCCAE73004B8036 /* ViewController.h */,
 				68A222A11BCCAE73004B8036 /* ViewController.m */,
+				6856B0ED1BCCF57E0015EF3D /* COUNTRY.txt */,
 				68A222A31BCCAE73004B8036 /* Main.storyboard */,
 				68A222A61BCCAE73004B8036 /* Assets.xcassets */,
 				68A222A81BCCAE73004B8036 /* LaunchScreen.storyboard */,
@@ -192,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68A222AA1BCCAE73004B8036 /* LaunchScreen.storyboard in Resources */,
+				6856B0EE1BCCF57E0015EF3D /* COUNTRY.txt in Resources */,
 				68A222A71BCCAE73004B8036 /* Assets.xcassets in Resources */,
 				68A222A51BCCAE73004B8036 /* Main.storyboard in Resources */,
 			);
@@ -400,6 +404,7 @@
 				68A222BB1BCCAE74004B8036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68A222BC1BCCAE74004B8036 /* Build configuration list for PBXNativeTarget "读取文件UITests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +413,7 @@
 				68A222BE1BCCAE74004B8036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
